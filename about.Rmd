@@ -1,0 +1,112 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+# Education
+
+
+### Columbia University Mailman School of Public Health, NEW YORK, NY               		 	         
+May 2022
+
+**Master of Public Health**, *Epidemiology* 
+  Certificate in Applied Biostatistics and Public Health Data Science 
+*Relevant Coursework*: Applied Regression I & II, Analysis of Categorical Data, 
+Design and Conduct of Observational Epidemiology, Applied Epidemiologic Analysis,
+Data Science, Relational Databases and SQL Programming
+
+### University of South Carolina, Columbia, SC					   
+May 2020
+
+**Bachelor of Science**, *Exercise Science* 
+  Minor in Journalism and Mass Communications
+*Cum Laude*; Leadership Distinction in Professional and Civic Engagement
+
+# Experience
+
+### Columbia Universiy Mailman School of Public Health, New York, NY					                    
+September 2021-present
+
+**Graduate Teaching Assistant**
+• *P8100- Applied Regression I (Fall 2021)*
+  o Assists with the weekly facilitation of lecture, creating a welcoming and 
+    engaging space to foster uptake of material
+  o Holds weekly office hours to answer questions and aid in student’s 
+    development of knowledge
+• *P6031- Research Methods and Applications (Fall 2021)*
+  o Leads weekly quantitative lab sessions for 20 first-year graduate students, 
+    ensuring understanding of material for a diverse audience
+  o Grades weekly lab and homework assignments, providing clear and accurate 
+    feedback efficiently
+
+### Weill Cornell Medical College, New York, NY						                
+June 2021-present
+
+**Research Assistant**
+•	Assists the Epidemiology Division in cleaning and analyzing data from the 
+  National Cancer Institute’s Surveillance, Epidemiology, and End Results 
+  program (SEER) database to assess cancer trends in New York City from 
+  1975-2018
+•	Works collaboratively to assist team members with additional projects 
+  including literature reviews and research tasks
+
+
+### Campus Recreation, University of South Carolina, Columbia, SC				     
+April 2019-March 2020
+
+**Membership Services Associate**
+• Provided excellent customer service to patrons by distributing information on 
+  gym facilities and upcoming events, while increasing profits by selling 
+  memberships and lockers to faculty and alumni
+• Streamlined office processes by organizing, scanning and uploading membership 
+  paperwork using CSI Spectrum platform
+
+
+### Special Olympics South Carolina, Irmo, SC		           
+August 2019-December 2019
+
+**Sports and Programs Intern**
+•	Worked with program coordinators to ensure event safety and success, 
+  encouraging continued athlete participation
+•	Aided in research and communication with other Special Olympics state 
+  organizations to scout potential new sports, fundraisers, and coach training 
+  workshops, keeping SOSC programs current
+
+
+### Pillars for Carolina, University of South Carolina, Columbia, SC									     
+September 2018-September 2019
+
+**Student Director**
+•	Led an executive team and staff of over 40 students, helping them develop 
+  better professional and mentorship skills while working alongside University 
+  professionals to ensure a rewarding program
+•	Built curriculum plans for 300 hours of orientation programming, ensuring the 
+  safety and satisfaction of students
+•	Worked collaboratively with advisors to manage a budget of over $80,000, 
+  including successfully reducing year-over-year spending by $10,000
+
+### Memorial Sloan Kettering Cancer Center, New York, NY									     
+June 2017-August 2017
+
+**Research Library Intern**
+•	Reviewed research database for doctors and clinicians to ensure that all 
+  articles and entries were up to date and MSKCC was credited appropriately
+•	Compiled contact lists for other hospital research libraries across the 
+  country for office use
+•	Maintained organization of thousands of journals and books on shelves, 
+  improving efficiency of the library office
+
+
+# Programming Languages, Skills, and Proficiencies
+
+Programs: SAS, SQL, R
+Software: MS Office Suite (Access, Word, Excel)
+Licenses: CITI Human Subjects Training, HIPAA 
+
+
+
+

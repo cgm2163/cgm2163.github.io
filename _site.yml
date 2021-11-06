@@ -1,0 +1,22 @@
+name: "Catherine_Mauro"
+output_dir: "."
+navbar:
+  title: "Catherine Mauro"
+  left:
+    - text: "About Me"
+      href: index.html
+    - text: "Resume"
+      href: about.html
+  right:
+    - icon: far fa-envelope-open
+      href: mailto:<kmauro21@gmail.com>
+    - icon: fab fa-linkedin-in
+      href: https://www.linkedin.com/in/catherine-mauro/
+    - icon: fab fa-github
+      href: https://github.com/cgm2163
+    - icon: fab fa-twitter
+      href: https://twitter.com/katemaurooo
+
+
+
+

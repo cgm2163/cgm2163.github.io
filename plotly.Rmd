@@ -1,0 +1,96 @@
+---
+title: "PLOTLY"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r}
+
+library(tidyverse)
+library(flexdashboard)
+library(plotly)
+library(viridis)
+
+```
+
+
+```{r}
+
+library(p8105.datasets)
+data("instacart")
+
+
+ weekend_mornings <- instacart %>%
+  select(order_id, order_dow, order_hour_of_day, department) %>%
+  mutate(weekend = ifelse(order_dow == "1" | order_dow == "7", "yes", no = "no")) %>%
+  filter(weekend == "yes", order_hour_of_day <= 12)
+
+department_hours <- instacart %>%
+  select(department, order_hour_of_day)
+ 
+ day_hour <- instacart %>%
+  select(order_hour_of_day, order_dow) %>%
+   mutate(order_dow = ifelse(order_dow == 1, "Sunday", ifelse(order_dow == 2, "Monday", ifelse(order_dow == 3, "Tuesday", ifelse(order_dow == 4, "Wednesday", ifelse(order_dow == 5, "Thursday", ifelse(order_dow == 6, "Friday", "Saturday"))))))) %>%
+  mutate(order_dow = factor(order_dow, ordered = TRUE, levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))) %>%
+  group_by(order_dow) %>%
+  summarise(avg_hour = mean(order_hour_of_day))
+
+
+
+```
+
+
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+
+
+weekend_mornings %>%
+  count(department) %>%
+  mutate(department = fct_reorder(department, n)) %>%
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") %>%
+  layout(title = "Weekend Pre-Noon Orders by Department") 
+
+
+
+```
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+department_hours %>%
+  group_by(department) %>%
+  plot_ly(y = ~order_hour_of_day, color = ~department, type = "box", colors = "viridis") %>%
+  layout(title = "Spread of Hour Order by Department") 
+
+```
+
+### Chart C
+
+```{r}
+
+day_hour %>%
+  plot_ly(x = ~order_dow, y = ~avg_hour, type = "scatter", mode = "lines+markers", color = 'rgba(67,67,67,1)') %>%
+  layout(title = "Average Hour of Order by Day")
+
+  
+
+```
+
+
+
+
+
+
+

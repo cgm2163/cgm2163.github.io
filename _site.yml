@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Resume"
       href: about.html
+    - text: "Plotly"
+      href: plotly.html
   right:
     - icon: far fa-envelope-open
       href: mailto:<kmauro21@gmail.com>
